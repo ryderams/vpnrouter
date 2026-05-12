@@ -38,7 +38,7 @@
 3. Выберите нужную локацию (например, **Германия**).
 4. Скачайте конфигурацию (файл *.conf).
 
-<p align="center"><img src="img/img9.png" width="650" alt="Снимок экрана — 2026-05-03 в 13.06.26.png"></p>
+<p align="center"><img src="img/img9.png" width="777" alt="Снимок экрана — 2026-05-03 в 13.06.26.png"></p>
 ---
 
 ## 3) Установка конфигурации на роутер Keenetic/Netcraze
@@ -51,26 +51,26 @@
 4. Выберите **Изменить набор компонентов**.
 5. Найдите компонент **WireGuard** и установите его.
 
-<p align="center"><img src="img/img10.png" width="650" alt="Снимок экрана — 2026-05-03 в 13.08.55.png"></p>
+<p align="center"><img src="img/img10.png" width="777" alt="Снимок экрана — 2026-05-03 в 13.08.55.png"></p>
 1. Дождитесь перезагрузки роутера.
 
 ### 3.2 Импортировать конфигурацию WireGuard
 
 1. Перейдите: **Интернет → Другие подключения**.
 
-<p align="center"><img src="img/img1.png" width="650" alt="img1"></p>
+<p align="center"><img src="img/img1.png" width="235" alt="img1"></p>
 1. В блоке WireGuard выберите **Загрузить из файла**.
 
-<p align="center"><img src="img/img2.png" width="650" alt="img2"></p>
+<p align="center"><img src="img/img2.png" width="205" alt="img2"></p>
 1. Укажите файл *.conf, скачанный из личного кабинета Amnezia.
 2. Откройте созданное подключение и включите:
     - **Использовать для выхода в интернет** (галочка)
     
-    <p align="center"><img src="img/img3.png" width="650" alt="img3"></p>
+    <p align="center"><img src="img/img3.png" width="454" alt="img3"></p>
 3. Сохраните настройки.
 4. Включите подключение (ползунок **Вкл**).
 
-<p align="center"><img src="img/img4.png" width="650" alt="img4"></p>
+<p align="center"><img src="img/img4.png" width="494" alt="img4"></p>
 1. Если **Пир** горит зелёным — соединение установлено.
 
 ---
@@ -86,24 +86,24 @@
 
 1. Перейдите: **Интернет → Приоритеты подключений**.
 
-<p align="center"><img src="img/img5.png" width="650" alt="img5"></p>
+<p align="center"><img src="img/img5.png" width="259" alt="img5"></p>
 1. Нажмите **Добавить политику**.
 2. Задайте имя (например, `Amnezia`) и сохраните.
 
-<p align="center"><img src="img/img6.png" width="650" alt="img6"></p>
+<p align="center"><img src="img/img6.png" width="259" alt="img6"></p>
 1. Отметьте галочку на вашем **WireGuard**‑подключении и нажмите **Сохранить**.
 
-<p align="center"><img src="img/img7.png" width="650" alt="img7"></p>
+<p align="center"><img src="img/img7.png" width="621" alt="img7"></p>
 1. Перейдите во вкладку **Применение политик**.
 2. Перетащите нужные устройства/сети в политику `Amnezia`. 
 
-<p align="center"><img src="img/img11.png" width="650" alt="Снимок экрана — 2026-05-03 в 13.23.51.png"></p>
+<p align="center"><img src="img/img11.png" width="621" alt="Снимок экрана — 2026-05-03 в 13.23.51.png"></p>
 ### (Опционально) Создать отдельную Wi‑Fi сеть под VPN
 
 - Вкладка: **Мои сети и Wi‑Fi**
 - Нажмите **+** и создайте новый сегмент/сеть, затем перетащите её в политику `Amnezia`.
 
-<p align="center"><img src="img/img8.png" width="650" alt="img8"></p>
+<p align="center"><img src="img/img8.png" width="425" alt="img8"></p>
 ---
 
 ## 5) Раздельная маршрутизация (Split tunneling) — «часть сайтов через VPN»
@@ -124,7 +124,7 @@
 
 1. Откройте: **Сетевые правила → Маршрутизация** (IPv4‑маршруты).
 
-<p align="center"><img src="img/img12.png" width="650" alt="Снимок экрана — 2026-05-03 в 13.26.54.png"></p>
+<p align="center"><img src="img/img12.png" width="247" alt="Снимок экрана — 2026-05-03 в 13.26.54.png"></p>
 ### 5.2 Сгенерировать маршруты для нужного сервиса (пример: YouTube)
 
 1. Откройте сайт: [https://iplist.opencck.org/ru/](https://iplist.opencck.org/ru/) (альтернативный сайт с маршрутами [https://github.com/RockBlack-VPN/ip-address/tree/main/Global](https://github.com/RockBlack-VPN/ip-address/tree/main/Global) тут могут быть и другие сайты которые вам могут быть нужны)
