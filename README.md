@@ -33,7 +33,7 @@
 
 ## 2) Выгрузка конфигурации (Amnezia)
 
-1. Зайдите в личный кабинет [**Amnezia Premium**](https://storage.googleapis.com/amnezia/amnezia.org?m-path=premium&arf=AMBPHDHV1FCPHDNV).
+1. Зайдите в личный кабинет [**Amnezia Premium**](https://storage.googleapis.com/amnezia/amnezia.org?m-path=premium&arf=GBTGPZWMDQYATUYD).
 2. Откройте раздел **Файлы конфигурации**.
 3. Выберите нужную локацию (например, **Германия**).
 4. Скачайте конфигурацию (файл *.conf).
